@@ -1,0 +1,128 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+
+header {
+    background-color: #a4cfe0;
+    padding: 20px;
+    text-align: center;
+    color: #0D3849; 
+    height: 150px;
+}
+
+footer {
+    background-color: #092834;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #A4CFE0;
+}
+
+.headtxtcolor1
+{
+  color: #1A3E4C;
+  font-family: "Alfa Slab One"; 
+  font-size: 50px;
+  font-style: normal;
+
+}
+
+.headtxtcolor2
+{
+ color: #275D72;
+  font-style: normal;
+  font-size: 40px;
+  font-family: "Alfa Slab One";
+   font-weight: normal;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #0D3849;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    text-align:center;
+   
+}
+/* Style the links inside the navigation bar */
+.topnav a {    
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display:inline-block;
+   
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ECF5F8;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: black;
+    background-color: #ECF5F8;
+}
+.content {
+    background-color: #ECF5F8;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    height: 600px;
+  }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
